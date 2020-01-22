@@ -31,7 +31,7 @@ def describeWithNulls(df, doPrint=True):
     combo = pd.concat([df.isna().sum(),desc.T],axis=1).set_axis(['Nulls']+list(desc.index),axis=1,inplace=False)
     if doPrint:
         p(combo.head(100))
-    return combo
+    return combo    
 
 # Read a Parquet File into Spark DataFRame and also create Pandas Dataframe
 #
