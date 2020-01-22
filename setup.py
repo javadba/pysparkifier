@@ -9,8 +9,8 @@ README = (HERE / "README.md").read_text()
 
 # This call to setup() does all the work
 setup(
-  name = 'pyspark_utils2',         # How you named your package folder (MyLib)
-  packages = ['pyspark_utils2'],   # Chose the same as "name"
+  name = 'pysparkifier',         # How you named your package folder (MyLib)
+  packages = ['pysparkifier'],   # Chose the same as "name"
   include_package_data=True,
   version = '0.7',      # Start with a small number and increase it with every change you make
   # license='apache-2.0',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository

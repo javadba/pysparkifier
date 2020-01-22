@@ -16,7 +16,7 @@ def setupSpark():
     pd.set_option('display.max_colwidth', -1)
     pd.set_option('display.max_columns', None)
     pd.set_option('expand_frame_repr', False)
-    spark = SparkSession.builder.appName("pyspark_utils2").master("local").getOrCreate()
+    spark = SparkSession.builder.appName("pysparkifier").master("local").getOrCreate()
     return spark
     
 # # Start the Apache Spark server
@@ -90,7 +90,7 @@ def tokenize(txt):
         return toks
 
 def _keep_me_private():
-    print("should NOT be exposed when doing `from pyspark_utils2 import *`")
+    print("should NOT be exposed when doing `from pysparkifier import *`")
     
 if __name__ == '__main__':
     sampleCode="""

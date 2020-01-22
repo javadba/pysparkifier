@@ -1,4 +1,4 @@
-from .pyspark_utils2 import *
+from .pysparkifier import *
 
 def test_getSpark():
   spark1 = setupSpark()
