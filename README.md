@@ -1,2 +1,2 @@
-# pyspark_utils
+# pysparkifier
 Incorporate pyspark easily into pandas/numpy workflows

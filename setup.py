@@ -12,14 +12,14 @@ setup(
   name = 'pysparkifier',         # How you named your package folder (MyLib)
   packages = ['pysparkifier'],   # Chose the same as "name"
   include_package_data=True,
-  version = '0.7',      # Start with a small number and increase it with every change you make
+  version = '0.8',      # Start with a small number and increase it with every change you make
   # license='apache-2.0',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Streamlined pyspark usage',   # Give a short description about your library
   author = 'Stephen Boesch',                   # Type in your name
   author_email = 'javadba@gmail.com',      # Type in your E-Mail
-  url = 'https://github.com/javadba/pyspark_utils',   # Provide either the link to your github or to your website
+  url = 'https://github.com/javadba/pysparkifier',   # Provide either the link to your github or to your website
   license='Apache License 2.0',
-  download_url = 'https://github.com/javadba/pyspark_utils/archive/0.7.tar.gz',
+  download_url = 'https://github.com/javadba/pysparkifier/archive/0.8.tar.gz',
   keywords = ['pyspark','utilities','utils'],
   install_requires=[ 'pyspark', 'pandas'],
   classifiers=[
@@ -31,5 +31,6 @@ setup(
     'Programming Language :: Python :: 3.5',
     'Programming Language :: Python :: 3.6',
     'Programming Language :: Python :: 3.7',
+    'Programming Language :: Python :: 3.8'
   ],
 )
